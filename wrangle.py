@@ -29,8 +29,18 @@ def wrangle_autism():
                        'Family_mem_with_ASD': 'family_mem_with_asd',
                        'Class/ASD Traits ': 'asd_traits'}, inplace=True)
     df.drop(columns = ['Qchat-10-Score', 'Who completed the test'], inplace=True)
+    df = df["is_male"] = df[['sex']].replace({'m': 1, 'f': 0})
     df = df.set_index('Case_No')
+    binary(df)
     return df
+
+#function to change columns from yes/no to o/1
+def binary(df):
+    binary_columns = ['jaundice','family_mem_with_asd', 'family_mem_with_asd']
+    for feature in binary_columns:
+        df[feature].replace(to_replace='Yes', value=1, inplace=True)
+        df[feature].replace(to_replace='No', value=0, inplace=True)
+
 
 #split with 
 def train_validate_test_split(df, target, seed):
