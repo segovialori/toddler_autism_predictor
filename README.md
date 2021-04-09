@@ -11,7 +11,7 @@
 ## Data Dictionary
 
 | column_name                 | description                                                                                                         | dtype    |
-|-----------------------------|---------------------------------------------------------------------------------------------------------------------|-----------------|----------|
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------|----------|
 | `A1`                  | Does your child look at you when you call his/her name?                                                                                |  |int64    |
 | `A2`                 | How easy is it for you to get eye contact with your child?                                                           |              float64  |
 | `A3`                  | Does your child point to indicate that s/he wants something? (e.g. a toy that is 
