@@ -15,9 +15,9 @@
 | `A1`                  | Does your child look at you when you call his/her name?                                                                                |  |int64    |
 | `A2`                 | How easy is it for you to get eye contact with your child?                                                           |              float64  |
 | `A3`                  | Does your child point to indicate that s/he wants something? (e.g. a toy that is 
-out of reach)                                                                                  |  int64    |
+out of reach)  |  int64  |                                                                                
 | `A4`          | Does your child point to share interest with you? (e.g. pointing at an 
-interesting sight)                                |      int64           |     |   
+interesting sight)                                |  int64    |   
 | `A5`                      | Does your child pretend? (e.g. care for dolls, talk on a toy phone)                                                                    |                 float64  |
 | `A6`                      | Does your child follow where you’re looking?  |                 int64    |
 | `A7`                  | If you or someone else in the family is visibly upset, does your child show signs of wanting to comfort them? (e.g. stroking hair, hugging them)                                                             |                 float64  |
