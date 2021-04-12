@@ -6,15 +6,16 @@
 - Identify which toddlers display traits of autism
 ## Initial Hypotheses:
 > Hypothesis 1:
-    - Ho: Having a family member with autism does not effect autistic traits
-    - Ha: Having a family member with autism does effect autistic traits
-    - Outcome: We fail to reject the null hypothesis.
+ * Ho: Having a family member with autism does not effect autistic traits
+ * Ha: Having a family member with autism does effect autistic traits
+ * Outcome: We fail to reject the null hypothesis.
 > Hypotheis 2:
-    - Ho: Having a jaundice as a baby does not effect autistic traits
-    - Ha: Having a jaundice as a baby not effect autistic traits
-    - Outcome: We reject the null hypothesis.
+ * Ho: Having a jaundice as a baby does not effect autistic traits
+ * Ha: Having a jaundice as a baby not effect autistic traits
+ * Outcome: We reject the null hypothesis.
 ## Key Takeaways:
--
+- Accuracy of tested MVP KNN model increased accuracy by ~17%
+- Accurary of tested 2nd KNN interation with feature engineering increased accuracy by ~22%
 ## Data Dictionary
 
 | column_name                 | description                                                                                                         | dtype    |
