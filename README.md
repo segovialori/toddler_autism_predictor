@@ -1,13 +1,20 @@
+![autism banner](https://mycanopy.org/wp-content/uploads/2020/01/Autism-Puzzle-Banner.jpg)
 # Predicting Autistic Traits in Toddlers
 ## Background
-> 
+> "Autism spectrum disorder (ASD) is a developmental disorder that affects communication and behavior. Although autism can be diagnosed at any age, it is said to be a “developmental disorder” because symptoms generally appear in the first two years of life." [National Institute of Mental Health](https://www.nimh.nih.gov/health/topics/autism-spectrum-disorders-asd/index.shtml)
 ## Goals
 - Identify which toddlers display traits of autism
 ## Initial Hypotheses:
-- Which questions in q chat have a greater correlation with being labeled as "autistic"
-- Is having a family member with autism have a corrleation with autistic traits?
-- Is there a significant difference between ethinicities and autistic traits?
-- Is there a signigicant difference between age and autistic traits?
+> Hypothesis 1:
+    - Ho: Having a family member with autism does not effect autistic traits
+    - Ha: Having a family member with autism does effect autistic traits
+    - Outcome: We fail to reject the null hypothesis.
+> Hypotheis 2:
+    - Ho: Having a jaundice as a baby does not effect autistic traits
+    - Ha: Having a jaundice as a baby not effect autistic traits
+    - Outcome: We reject the null hypothesis.
+## Key Takeaways:
+-
 ## Data Dictionary
 
 | column_name                 | description                                                                                                         | dtype    |
@@ -30,8 +37,21 @@
 | `Family_mem_with_ASD`           | Family member with autism diagnosis                                                             |                 | object |
 | `Class/ASD Traits`           | Toddler displays autistic traits or does not display autistic traits                                                             |                 object  |
 
-## Planning
+## How to reproduce:
+1. Clone or fork this repository
+2. Download the following files into the directory you wish to work in: wrangle.py, explore.py, model.py and final_autism.ipynb
+3. Run the final_autism jupyter notebook in its entirety
+4. Modify features/models/etc how you see fit
+5.  Follow the guide below to get started!
+### Planning
 [Follow along with me!](https://trello.com/b/kZhzTUYs/individual-project-board)
 
-## Acquire and Prep Dataset
-[Use this module to grab the data! ](https://github.com/segovialori/toddler_autism_predictor/blob/master/wrangle.py)
+### Acquire and Prep Dataset
+- [Use this module to grab the data! ](https://github.com/segovialori/toddler_autism_predictor/blob/master/wrangle.py)
+- Or you can visit kaggle [here](https://www.kaggle.com/fabdelja/autism-screening-for-toddlers) to grab the data set and data dictionary 
+
+### Explore
+- Use the explore.py module to generate different types of visualizations
+
+### Model
+- Use the model.py module to make feature engineering a little easier
